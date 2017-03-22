@@ -1,0 +1,24 @@
+uuid: afb1298c-00de-42fc-9a13-5e3779eec359
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_img
+    - field.field.block_content.block_img.field_images
+    - image.style.thumbnail
+  module:
+    - image
+id: block_content.block_img.default
+targetEntityType: block_content
+bundle: block_img
+mode: default
+content:
+  field_images:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden: {  }

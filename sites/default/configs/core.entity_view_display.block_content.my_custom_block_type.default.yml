@@ -1,0 +1,29 @@
+uuid: eba03870-d493-4cc8-8aca-2efb59db45a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.my_custom_block_type
+    - field.field.block_content.my_custom_block_type.body
+    - field.field.block_content.my_custom_block_type.field_pdf_file
+  module:
+    - file
+    - text
+id: block_content.my_custom_block_type.default
+targetEntityType: block_content
+bundle: my_custom_block_type
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_pdf_file:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+hidden: {  }

@@ -1,0 +1,23 @@
+uuid: 60ad749b-37bc-46de-9bc7-4e879be6a0e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.my_custom_form
+  module:
+    - contact_block
+  theme:
+    - bartik
+id: contactblock_2
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact block'
+  provider: contact_block
+  label_display: '0'
+  contact_form: my_custom_form
+visibility: {  }

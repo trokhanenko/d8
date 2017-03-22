@@ -1,0 +1,25 @@
+uuid: c4b4d042-0faa-4017-91ee-c3b3388d0fdb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:block_img:b2826554-ca76-4270-9aee-09c9826c15a5'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: images
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:b2826554-ca76-4270-9aee-09c9826c15a5'
+settings:
+  id: 'block_content:b2826554-ca76-4270-9aee-09c9826c15a5'
+  label: Images
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

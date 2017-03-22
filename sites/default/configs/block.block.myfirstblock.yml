@@ -1,0 +1,31 @@
+uuid: fb3f99df-681e-436b-9800-36977b92624f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fffd8646-46ed-4629-b358-efc1693127e1'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: myfirstblock
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:fffd8646-46ed-4629-b358-efc1693127e1'
+settings:
+  id: 'block_content:fffd8646-46ed-4629-b358-efc1693127e1'
+  label: 'My First Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
