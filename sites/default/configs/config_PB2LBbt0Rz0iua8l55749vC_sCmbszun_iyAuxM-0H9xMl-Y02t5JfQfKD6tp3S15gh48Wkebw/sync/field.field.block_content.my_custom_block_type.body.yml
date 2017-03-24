@@ -1,0 +1,22 @@
+uuid: c9af0978-240f-428d-aa18-128013cbe52b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.my_custom_block_type
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.my_custom_block_type.body
+field_name: body
+entity_type: block_content
+bundle: my_custom_block_type
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

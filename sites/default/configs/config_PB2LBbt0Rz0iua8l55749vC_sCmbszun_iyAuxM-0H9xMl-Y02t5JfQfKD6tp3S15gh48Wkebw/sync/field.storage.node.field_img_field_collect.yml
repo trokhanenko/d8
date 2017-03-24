@@ -1,0 +1,20 @@
+uuid: a0c76198-9463-4a85-8f87-855d0a936495
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - node
+id: node.field_img_field_collect
+field_name: field_img_field_collect
+entity_type: node
+type: field_collection
+settings:
+  target_type: field_collection_item
+module: field_collection
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

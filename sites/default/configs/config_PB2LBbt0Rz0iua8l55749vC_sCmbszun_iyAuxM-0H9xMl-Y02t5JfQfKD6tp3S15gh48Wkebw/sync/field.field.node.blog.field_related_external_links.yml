@@ -1,0 +1,28 @@
+uuid: 28323517-8518-4b61-9df3-7bef72c79c12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_external_links
+    - node.type.blog
+  module:
+    - link
+id: node.blog.field_related_external_links
+field_name: field_related_external_links
+entity_type: node
+bundle: blog
+label: 'Related external links'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'http://www.drupal.org'
+    title: drupal.org
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

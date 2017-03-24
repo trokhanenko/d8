@@ -1,0 +1,25 @@
+uuid: 06609cef-199c-455f-bc08-08515fca3991
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:my_custom_block_type:8329113e-5fde-4120-b755-e974f89dd168'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: pdffile
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:8329113e-5fde-4120-b755-e974f89dd168'
+settings:
+  id: 'block_content:8329113e-5fde-4120-b755-e974f89dd168'
+  label: 'PDF File'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

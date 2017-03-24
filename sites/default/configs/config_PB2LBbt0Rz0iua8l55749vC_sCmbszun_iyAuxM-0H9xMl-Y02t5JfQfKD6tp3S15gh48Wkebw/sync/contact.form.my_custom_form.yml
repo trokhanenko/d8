@@ -1,0 +1,12 @@
+uuid: 8642a938-4b38-4a2b-9c2f-7d6083f7cf41
+langcode: en
+status: true
+dependencies: {  }
+id: my_custom_form
+label: 'My custom form'
+recipients:
+  - drupal@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

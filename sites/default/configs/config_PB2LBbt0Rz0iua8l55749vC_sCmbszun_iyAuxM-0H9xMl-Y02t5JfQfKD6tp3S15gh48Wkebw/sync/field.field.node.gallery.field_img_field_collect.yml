@@ -1,0 +1,30 @@
+uuid: bf2a1e38-e939-4477-b9ed-7a2bbdd24e60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_img_field_collect
+    - field_collection.field_collection.field_img_field_collect
+    - node.type.gallery
+  module:
+    - field_collection
+id: node.gallery.field_img_field_collect
+field_name: field_img_field_collect
+entity_type: node
+bundle: gallery
+label: img_field_collect
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:field_collection_item'
+  handler_settings:
+    target_bundles:
+      field_img_field_collect: field_img_field_collect
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: field_collection

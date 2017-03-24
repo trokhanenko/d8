@@ -1,0 +1,21 @@
+uuid: 913e5188-52eb-4c39-a12c-51baaa4b4550
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_priority
+    - node.type.blog
+  module:
+    - options
+id: node.blog.field_priority
+field_name: field_priority
+entity_type: node
+bundle: blog
+label: Priority
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

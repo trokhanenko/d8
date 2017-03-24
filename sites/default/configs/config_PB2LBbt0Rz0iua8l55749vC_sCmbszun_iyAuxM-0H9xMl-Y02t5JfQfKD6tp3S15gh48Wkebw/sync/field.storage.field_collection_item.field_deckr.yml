@@ -1,0 +1,19 @@
+uuid: 1dddac9f-2e94-4e43-8c63-39e1297481a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - text
+id: field_collection_item.field_deckr
+field_name: field_deckr
+entity_type: field_collection_item
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,53 @@
+uuid: a539bcbd-b981-42fd-be65-f30a034fca72
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.my_custom_form
+    - field.field.contact_message.my_custom_form.field_email
+    - field.field.contact_message.my_custom_form.field_user_photo
+    - image.style.thumbnail
+  module:
+    - image
+id: contact_message.my_custom_form.default
+targetEntityType: contact_message
+bundle: my_custom_form
+mode: default
+content:
+  copy:
+    weight: 50
+  field_email:
+    weight: 51
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+  field_user_photo:
+    weight: 52
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  mail:
+    weight: -40
+  message:
+    type: string_textarea
+    weight: 0
+    settings:
+      rows: 12
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    weight: -50
+  preview:
+    weight: 40
+  subject:
+    type: string_textfield
+    weight: -10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

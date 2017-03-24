@@ -1,0 +1,30 @@
+uuid: 41a2dfb8-8b4a-46e2-a4df-8dbc4d14c6d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_img
+    - field.field.block_content.block_img.field_images
+    - image.style.thumbnail
+  module:
+    - image
+id: block_content.block_img.default
+targetEntityType: block_content
+bundle: block_img
+mode: default
+content:
+  field_images:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  info:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
